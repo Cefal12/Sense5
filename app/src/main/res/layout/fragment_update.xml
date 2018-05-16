@@ -17,7 +17,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="30dp"
-        android:text="Rediger spisekassen"
+        android:text="@string/update_titel"
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -34,7 +34,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="15dp"
         android:backgroundTint="@android:color/holo_green_dark"
-        android:text="angiv dato"
+        android:textColor="?android:attr/colorBackground"
+        android:text="@string/Angiv_dato"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -58,7 +59,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:hint="HF1+2"
+        android:hint="@string/HF12"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,7 +73,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:hint="HF3"
+        android:hint="@string/HF3"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -86,7 +87,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:hint="HF4"
+        android:hint="@string/HF4"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -100,7 +101,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:hint="1-3 spsk. fedt"
+        android:hint="@string/Fedt"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -113,9 +114,9 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="15dp"
-        android:text="Opdatér spisekassen "
+        android:text="@string/opdater_mad"
         android:backgroundTint="@android:color/holo_green_dark"
-
+        android:textColor="?android:attr/colorBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bn_read_date" />
@@ -127,9 +128,9 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="10dp"
-        android:text="Indlæs spisekassen"
+        android:text="@string/Indlæs_mad"
         android:backgroundTint="@android:color/holo_green_dark"
-
+        android:textColor="?android:attr/colorBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_fedt" />
@@ -143,7 +144,7 @@
         android:layout_marginTop="10dp"
         android:background="?attr/colorButtonNormal"
         android:backgroundTint="@android:color/white"
-        android:text="Tilbage"
+        android:text="@string/Tilbage"
         app:layout_constraintTop_toBottomOf="@+id/bn_update_mad" />
 
 
